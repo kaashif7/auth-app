@@ -27,29 +27,39 @@ git clone https://github.com/kaashif7/auth-app.git
 Install dependencies
 
 npm install
-# or
+or
 yarn install
 
 Run on Android
 
 Make sure you have Android Studio and an emulator or device connected.
+
 Start Metro bundler:
+
 npx react-native start
 
 In another terminal, run:
+
 npx react-native run-android
 
 Run on iOS
+
 Make sure you have Xcode installed and an iOS simulator or device.
+
 Install CocoaPods dependencies:
+
 cd ios
+
 pod install
+
 cd ..
 
 Start Metro bundler:
+
 npx react-native start
 
 In another terminal, run:
+
 npx react-native run-ios
 
 ⚠️ Note: iOS requires macOS and Xcode to build and run the app. Android works on Windows, macOS, and Linux.
